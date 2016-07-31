@@ -142,3 +142,9 @@ a {
         }
 
 
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0 0 0;
+}
