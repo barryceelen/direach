@@ -101,6 +101,7 @@ body {
 h1.site-title {
 	font-size: 12px;
 	clear: none;
+	display: inline;
 }
 p.site-description {
 	font-size: 10px;
