@@ -28,7 +28,7 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: rgb(27, 27, 27);
 	font-family: Georgia, serif;
  	font-size: 112.5%;
  	line-height: 1.65;
