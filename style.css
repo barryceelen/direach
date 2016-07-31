@@ -107,6 +107,8 @@ h1.site-title {
 p.site-description {
 	font-size: 14px;
 	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 nav.main-navigation {
 	font-size: 12px;
