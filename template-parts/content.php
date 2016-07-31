@@ -18,12 +18,7 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php direach_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -33,6 +28,12 @@
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'direach' ), array( 'span' => array( 'class' => array() ) ) ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
+		if ( 'post' === get_post_type() ) : ?>
+		<div class="entry-meta">
+			<?php direach_posted_on(); ?>
+		</div><!-- .entry-meta -->
+		<?php
+		endif; ?>
 
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'direach' ),
