@@ -165,15 +165,7 @@ samp {
 	font-size: 1em;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
-	color: inherit;
-	font: inherit;
-	margin: 0;
-}
+
 
 button {
 	overflow: visible;
@@ -748,11 +740,6 @@ a:active {
 	display: inline;
 }
 
-.page-content,
-.entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
-}
 
 .page-links {
 	clear: both;
