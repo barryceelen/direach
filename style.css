@@ -98,7 +98,7 @@ body {
 
 /* make title really small for now */
 
-h1.site-title {
+.site-title {
 	font-size: 14px;
 	clear: none;
 	display: inline;
