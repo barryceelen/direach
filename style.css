@@ -158,3 +158,12 @@ a {
 .entry-summary {
 	margin: 0 0 0;
 }
+
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
