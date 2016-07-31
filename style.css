@@ -114,6 +114,16 @@ nav.main-navigation {
 	font-size: 12px;
 	}
 
+/* menu button */
+
+button.menu-toggle {
+	margin 0px 2px auto;
+	font-size: 10px;
+
+}
+
+/* headings */
+
 a {
             color: rgb(65, 110, 210);
             text-decoration: none;
