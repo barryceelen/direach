@@ -102,6 +102,8 @@ add_action( 'widgets_init', 'direach_widgets_init' );
  * Enqueue scripts and styles.
  */
 function direach_scripts() {
+// load the normalise stylesheet first
+	wp_enqueue_style( 'normalise', get_template_directory_uri() . 'normalise.css');
 	wp_enqueue_style( 'direach-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'direach-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
