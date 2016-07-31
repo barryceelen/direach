@@ -120,6 +120,7 @@ button.menu-toggle {
 	margin 0px 2px auto;
 	font-size: 10px;
 	text-align: center;
+	display: inline-block;
 
 }
 
