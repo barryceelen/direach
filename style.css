@@ -23,3 +23,14 @@ of normalise.css
 
 */
 
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: Georgia, serif;
+ 	font-size: 16px;
+ 	font-size: 1rem;
+ 	line-height: 1.5;
+}
