@@ -18,7 +18,8 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 		?>
-		
+		</header>
+		<!-- .entry-header -->
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
@@ -39,7 +40,7 @@
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
-	</header><!-- .entry-header -->
+	
 
 	<footer class="entry-footer">
 		<?php direach_entry_footer(); ?>
