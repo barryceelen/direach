@@ -255,17 +255,7 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-body,
-button,
-input,
-select,
-textarea {
-	color: #404040;
-	font-family: sans-serif;
- 	font-size: 16px;
- 	font-size: 1rem;
- 	line-height: 1.5;
-}
+
 
 h1,
 h2,
@@ -345,9 +335,6 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
-}
 
 blockquote:before,
 blockquote:after,
