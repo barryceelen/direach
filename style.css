@@ -118,7 +118,7 @@ nav.main-navigation {
 /* menu button */
 
 button.menu-toggle {
-	margin 0px 2px auto;
+	margin-bottom: 2px;
 	font-size: 10px;
 	text-align: center;
 	display: inline-block;
