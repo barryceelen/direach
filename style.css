@@ -33,8 +33,13 @@ textarea {
  	font-size: 112.5%;
  	line-height: 1.65;
 }
-
+@media only screen and (min-width: 780px) {
 div#page {
 	max-width: 800px;
 	margin: 0 auto;
+	background-color: rgb(251, 251, 251);
+}
+body {
+	background-color: transparent;
+}
 }
