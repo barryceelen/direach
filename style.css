@@ -37,9 +37,7 @@ textarea {
 div#page {
 	max-width: 800px;
 	max-width: 94ex;
-	margin: 0 auto;
-	margin-left: 70px;
-	margin-right: 70px;
+	margin: 22px auto 0 auto;
 	background-color: rgb(251, 251, 251);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 	padding-top: 32px;
