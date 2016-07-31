@@ -36,9 +36,14 @@ textarea {
 @media only screen and (min-width: 780px) {
 div#page {
 	max-width: 800px;
+	max-width: 94ex;
 	margin: 0 auto;
+	margin-left: 70px;
+	margin-right: 70px;
 	background-color: rgb(251, 251, 251);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	padding-top: 32px;
+    padding-bottom: 32px;
 }
 body {
 	background-color: transparent;
