@@ -99,16 +99,17 @@ body {
 /* make title really small for now */
 
 h1.site-title {
-	font-size: 12px;
+	font-size: 14px;
 	clear: none;
 	display: inline;
+	font-weight: normal;
 }
 p.site-description {
-	font-size: 10px;
+	font-size: 14px;
 	float: right;
 }
 nav.main-navigation {
-	font-size: 10px;
+	font-size: 12px;
 	}
 
 a {
