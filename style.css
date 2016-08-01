@@ -23,6 +23,11 @@ of normalise.css
 
 */
 
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+}
+
 body,
 button,
 input,
@@ -32,6 +37,7 @@ textarea {
 	font-family: Georgia, serif;
  	font-size: 112.5%;
  	line-height: 1.65;
+ 	
 }
 
 /*padding */
@@ -127,10 +133,7 @@ button.menu-toggle {
 
 /* headings */
 
-a {
-            color: rgb(65, 110, 210);
-            text-decoration: none;
-        }
+
 
         h1, h2, h3, h4, h5, h6 {
             font-weight: bold;
@@ -161,7 +164,15 @@ a {
         
         
 /* HTML markup */
+p {
+	margin-bottom: 1.5em;
+}
 
+a {
+            color: rgb(65, 110, 210);
+            text-decoration: none;
+        }
+        
 mark,
 ins {
 	text-decoration: underline;
@@ -169,7 +180,7 @@ ins {
 
 ul,
 ol {
-	margin: 0 0 0 0.5em;
+	margin: 0 0 1.5em 0;
 }
 
 ul {
