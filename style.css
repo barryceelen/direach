@@ -47,6 +47,9 @@ textarea {
 		padding-left: 16px;
 		padding-right: 16px;
 	}
+	body {
+		background-color: rgb(230,230,230);
+	}
 
 }
 @media screen and (min-width: 350px) {
@@ -80,7 +83,7 @@ textarea {
 	}
 	/* up the size a bit on full width */
 	body {
-		font-size: 120%;
+		font-size: 125%;
 	}
 }
 
@@ -97,9 +100,7 @@ div#page {
     padding-left: 70px;
     padding-right: 70px;
 }
-body {
-	background-color: rgb(230,230,230);
-}
+
 }
 
 .site-header {
@@ -254,7 +255,7 @@ pre {
 	margin-bottom: 1.6em;
 	max-width: 100%;
 	overflow: auto;
-	padding: 1.6em;
+	padding: 1em;
 }
 
 code,
