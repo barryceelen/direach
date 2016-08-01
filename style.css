@@ -117,9 +117,10 @@ div#page {
 	font-weight: normal;
 }
 p.site-description {
-	font-size: 14px;
+	font-size: 0.5em;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-style: italic;
 }
 nav.main-navigation {
 	font-size: 12px;
