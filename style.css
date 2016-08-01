@@ -169,7 +169,7 @@ ins {
 
 ul,
 ol {
-	margin: 0 0 0.5em 1.5em;
+	margin: 0 0 0.25em 0.5em;
 }
 
 ul {
@@ -182,7 +182,7 @@ ol {
 li > ul,
 li > ol {
 	margin-bottom: 0;
-	margin-left: 0.5em;
+	margin-left: 0.25em;
 }
 
 
