@@ -159,6 +159,15 @@ a {
         	margin-bottom: 0px;
         }
         
+        
+/* HTML markup */
+
+mark,
+ins {
+	text-decoration: underline;
+}
+
+
 .entry-meta {
 	font-size: 80%;
 }
