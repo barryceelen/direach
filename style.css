@@ -46,6 +46,7 @@ textarea {
 	div#page {
 		padding-left: 16px;
 		padding-right: 16px;
+		background-color: rgb(251, 251, 251);
 	}
 	body {
 		background-color: rgb(230,230,230);
