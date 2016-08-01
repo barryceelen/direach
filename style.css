@@ -178,6 +178,26 @@ ins {
 	text-decoration: underline;
 }
 
+/* Tables */
+
+table {
+	font-size: 0.8em;
+}
+
+table td, table th {
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	border: 1px solid rgb(216, 216, 216);
+}
+
+table th {
+	background-color: rgba(0, 0, 0, 0.025);
+}
+
+/* Lists */
+
 ul,
 ol {
 	margin: 0 0 1.5em 0;
@@ -196,6 +216,7 @@ li > ol {
 	margin-left: 0.25em;
 }
 
+/* Quotes */
 
 blockquote, q {
 	padding-left: 1.5em;
