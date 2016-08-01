@@ -168,6 +168,23 @@ ins {
 }
 
 
+blockquote, q {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	quotes: "" "";
+	border-left: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+
+
 .entry-meta {
 	font-size: 80%;
 }
