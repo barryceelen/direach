@@ -237,6 +237,32 @@ q:after {
 }
 
 
+/* Code + Pre */
+
+pre {
+	overflow: auto;
+}
+
+
+pre {
+	background: #e9e9e9;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var,
+pre,
+samp {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 1em;
+}
+
 
 .entry-meta {
 	font-size: 80%;
