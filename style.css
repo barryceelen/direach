@@ -62,34 +62,34 @@ main#main article header {
 
 }
 @media screen and (min-width: 350px) {
-main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, aside#secondary {
 		margin-left: 20px;
 		margin-right: 20px
 	}
 
 }
 @media screen and (min-width: 400px) {
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, aside#secondary {
 		margin-left: 22px;
 		margin-right: 22px
 	}
 
 }
 @media screen and (min-width: 600px) {
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, aside#secondary {
 		margin-left: 40px;
 		margin-right: 40px
 	}
 
 }
 @media screen and (min-width: 700px) {
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, aside#secondary {
 		margin-left: 40px;
 		margin-right: 40px
 	}
 }
 @media screen and (min-width: 730px) {
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, aside#secondary {
 		margin-left: 40px;
 		margin-right: 40px
 	}
