@@ -105,14 +105,15 @@ div#page {
 	max-width: 800px;
 	max-width: 94ex;
 	margin: 22px auto 0 auto;
-	background-color: rgb(251, 251, 251);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 	padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 70px;
     padding-right: 70px;
 }
-
+main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, aside#secondary {
+	background-color: rgb(251, 251, 251);
+}
 }
 
 .site-header {
