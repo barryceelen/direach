@@ -285,6 +285,9 @@ samp {
 	font-size: 0.8em;
 }
 
+.comments-link {
+	margin-right: 1em;
+}
 
 .entry-meta, .entry-footer {
 	font-size: 80%;
