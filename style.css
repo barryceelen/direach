@@ -147,6 +147,11 @@ button.menu-toggle {
 
 }
 
+/* navigation at bottom of post */
+nav.post-navigation {
+	margin-top: 1em;
+}
+
 /* headings */
 
 
