@@ -11,8 +11,8 @@
 
 ?>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
+	
+		<div id="masthead" class="site-branding site-header" role="banner">
 			<?php
 			
 			if ( get_header_image() ) : ?>
@@ -41,4 +41,4 @@
 			-->
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+	
