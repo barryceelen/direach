@@ -7,7 +7,7 @@
  * @package Direach
  */
 
- ?>
+get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -31,7 +31,6 @@
 	</div><!-- #primary -->
 
 <?php
-//putting header at bottom for single posts
-get_header();
+
 get_sidebar();
 get_footer();
