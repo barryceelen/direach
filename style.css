@@ -123,8 +123,9 @@ p.site-description {
 	font-style: italic;
 }
 nav.main-navigation {
-	font-size: 12px;
+	font-size: 0.7em;
 	text-align: center;
+	margin-right: 1em;
 	}
 
 /* menu button */
