@@ -125,8 +125,11 @@ p.site-description {
 nav.main-navigation {
 	font-size: 0.7em;
 	text-align: center;
-	margin-right: 1em;
 	}
+	
+nav.main-navigation ul li {
+	margin-right: 1em;
+}
 
 /* menu button */
 
