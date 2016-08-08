@@ -49,9 +49,7 @@ main#main article header {
 }
 
 @media screen and (min-width: 0px) {
-	div#page {
-		background-color: rgb(251, 251, 251);
-	}
+
 	body {
 		background-color: rgb(230,230,230);
 	}
