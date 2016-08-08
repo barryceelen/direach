@@ -24,9 +24,9 @@ function direach_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'direach_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
+		'width'                  => 60,
+		'height'                 => 60,
+		'flex-height'            => false,
 		'wp-head-callback'       => 'direach_header_style',
 	) ) );
 }
