@@ -124,6 +124,7 @@ p.site-description {
 }
 div.site-branding img {
 	float: left;
+	margin-right: 1em;
 }
 
 nav.main-navigation {
