@@ -42,6 +42,12 @@ textarea {
 
 /*padding */
 
+main#main article header {
+	/* ensure that header inside the article doesn't have a left or right margin */
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 @media screen and (min-width: 0px) {
 	div#page {
 		background-color: rgb(251, 251, 251);
