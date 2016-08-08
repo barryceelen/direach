@@ -55,43 +55,43 @@ main#main article header {
 	body {
 		background-color: rgb(230,230,230);
 	}
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
 		margin-left: 16px;
 		margin-right: 16px
 	}
 
 }
 @media screen and (min-width: 350px) {
-main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
 		margin-left: 20px;
 		margin-right: 20px
 	}
 
 }
 @media screen and (min-width: 400px) {
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
 		margin-left: 22px;
 		margin-right: 22px
 	}
 
 }
 @media screen and (min-width: 600px) {
-	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
 		margin-left: 40px;
 		margin-right: 40px
 	}
 
 }
 @media screen and (min-width: 700px) {
-	div#page {
-		padding-left: 42px;
-		padding-right: 42px;
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+		margin-left: 40px;
+		margin-right: 40px
 	}
 }
 @media screen and (min-width: 730px) {
-	div#page {
-		padding-left: 60px;
-		padding-right: 60px;
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments, div#secondary {
+		margin-left: 40px;
+		margin-right: 40px
 	}
 	/* up the size a bit on full width */
 	body {
