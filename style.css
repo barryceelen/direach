@@ -286,7 +286,7 @@ samp {
 }
 
 
-.entry-meta {
+.entry-meta, entry-footer {
 	font-size: 80%;
 }
 
