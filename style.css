@@ -115,15 +115,17 @@ div#page {
 	clear: none;
 	display: inline;
 	font-weight: normal;
-	float: right;
 }
 p.site-description {
 	font-size: 0.7em;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-style: italic;
-	float: right;
 }
+div.site-branding img {
+	float: left;
+}
+
 nav.main-navigation {
 	font-size: 0.7em;
 	text-align: center;
