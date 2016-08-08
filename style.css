@@ -44,32 +44,37 @@ textarea {
 
 @media screen and (min-width: 0px) {
 	div#page {
-		padding-left: 16px;
-		padding-right: 16px;
 		background-color: rgb(251, 251, 251);
 	}
 	body {
 		background-color: rgb(230,230,230);
 	}
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+		margin-left: 16px;
+		margin-right: 16px
+	}
 
 }
 @media screen and (min-width: 350px) {
-	div#page {
-		padding-left: 20px;
-		padding-right: 20px;
+main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+		margin-left: 20px;
+		margin-right: 20px
 	}
+
 }
 @media screen and (min-width: 400px) {
-	div#page {
-		padding-left: 22px;
-		padding-right: 22px;
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+		margin-left: 22px;
+		margin-right: 22px
 	}
+
 }
 @media screen and (min-width: 600px) {
-	div#page {
-		padding-left: 40px;
-		padding-right: 40px;
+	main#main article, main#main header, main#main nav.post-navigation, main#main div#comments {
+		margin-left: 40px;
+		margin-right: 40px
 	}
+
 }
 @media screen and (min-width: 700px) {
 	div#page {
