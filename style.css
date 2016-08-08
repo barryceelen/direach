@@ -99,7 +99,7 @@ main#main article, main#main header, main#main nav.post-navigation, main#main di
 
 
 @media only screen and (min-width: 780px) {
-div#page {
+#primary, #secondary, #colophon {
 	max-width: 800px;
 	max-width: 94ex;
 	margin: 22px auto 0 auto;
