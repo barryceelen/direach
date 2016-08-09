@@ -266,6 +266,10 @@ span.tags-links {
 	margin-left: 1em;
 }
 
+span.comments-link {
+	margin-left: 1em;
+	}
+
 /* Code + Pre */
 
 pre {
