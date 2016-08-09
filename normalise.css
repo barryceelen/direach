@@ -719,7 +719,9 @@ object {
 	margin-right: auto;
 }
 
-
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
 
 .wp-caption-text {
 	text-align: center;
