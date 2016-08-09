@@ -711,10 +711,7 @@ object {
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-.wp-caption {
-	margin-bottom: 1.5em;
-	max-width: 100%;
-}
+
 
 .wp-caption img[class*="wp-image-"] {
 	display: block;
