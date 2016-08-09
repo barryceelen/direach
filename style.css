@@ -265,7 +265,8 @@ article.sticky .entry-title {
 
 /* spacing for tags */
 span.tags-links {
-	margin-left: 2em;
+	margin-right: 1em;
+	margin-left: 1em;
 }
 
 /* Code + Pre */
