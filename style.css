@@ -258,6 +258,11 @@ q:after {
 }
 
 
+/* Sticky posts - WP guidelines say we should differentiate in some way */
+article.sticky .entry-title {
+	font-style: italic;
+}
+
 /* Code + Pre */
 
 pre {
