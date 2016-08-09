@@ -269,6 +269,12 @@ span.tags-links {
 span.comments-link {
 	margin-left: 1em;
 	}
+	
+/* Images */
+
+figcaption {
+	font-style: italic;
+	}
 
 /* Code + Pre */
 
