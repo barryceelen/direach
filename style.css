@@ -263,6 +263,11 @@ article.sticky .entry-title {
 	font-style: italic;
 }
 
+/* spacing for tags */
+span.tags-links {
+	margin-right: 2em;
+}
+
 /* Code + Pre */
 
 pre {
