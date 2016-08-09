@@ -275,6 +275,12 @@ span.comments-link {
 figcaption {
 	font-style: italic;
 	}
+	
+figure.alignnone 
+{
+	margin-left: 0;
+	margin-right: 0;
+}
 
 /* Code + Pre */
 
