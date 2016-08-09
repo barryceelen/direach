@@ -295,6 +295,9 @@ figure.alignnone
 	max-width: 100%;
 }
 
+.wp-caption-text {
+	color: rgb(40, 40, 40);
+}
 
 
 /* Code + Pre */
