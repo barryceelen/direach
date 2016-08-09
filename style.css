@@ -291,8 +291,12 @@ figure.alignnone
 }
 
 .wp-caption {
-	margin-bottom: 0.5em;
+	margin: 0.8075em 0;
 	max-width: 100%;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0;
 }
 
 /* Code + Pre */
