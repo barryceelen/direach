@@ -12,11 +12,16 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
+		if(is_page() || is_single() )
+		{
+			$end_title = ' - <a href="' echo esc_url( home_url( '/' ) ) . '"> . bloginfo( 'name' )</a></h1>;
+			the_title( '<h1 class="entry-title">', $end_title );
+			}
+		else
+		{
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+			}
+		
 		?>
 		</header>
 		<!-- .entry-header -->
