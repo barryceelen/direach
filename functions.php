@@ -81,20 +81,30 @@ function direach_content_width() {
 add_action( 'after_setup_theme', 'direach_content_width', 0 );
 
 /**
- * Register widget area.
+ * Register our two front page sidebars.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function direach_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'direach' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'direach' ),
+		'name'          => esc_html__( 'First Front Page Widget Area', 'direach' ),
+		'id'            => 'sidebar-2',
+		'description'   => esc_html__( 'Appears on the front page only', 'direach' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	) );
+	register_sidebar( array(
+                'name'          => esc_html__( 'Second Front Page Widget Area', 'direach' ),
+                'id'            => 'sidebar-3',
+                'description'   => esc_html__( 'Appears on the front page only', 'direach' ),
+                'before_widget' => '<section id="%1$s" class="widget %2$s">',
+                'after_widget'  => '</section>',
+                'before_title'  => '<h3 class="widget-title">',
+                'after_title'   => '</h3>',
+        ) );
+
 }
 add_action( 'widgets_init', 'direach_widgets_init' );
 
