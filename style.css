@@ -358,3 +358,9 @@ textarea {
 	font: inherit;
 	margin: 0;
 }
+
+/* widgets */
+.widget-area .front-widgets {
+		float: left;
+		width: 51.875%;
+}
