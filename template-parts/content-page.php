@@ -13,7 +13,8 @@
 	<header class="entry-header">
 		<?php 
 		//append the title of the site if we're on a single page or a single post
-		if(is_page() || is_single() )
+		// unless we're on the front page
+		if(is_page() || is_single() && !is_front_page() )
 		{
 			$end_title = ' - <a href="' . esc_url( home_url( '/' ) ) . '">' . get_bloginfo( 'name' ). '</a></h1>';
 			the_title( '<h1 class="entry-title">', $end_title );

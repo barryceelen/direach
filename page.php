@@ -21,7 +21,11 @@
 			while ( have_posts() ) : the_post();
 
 				get_template_part( 'template-parts/content', 'page' );
-				get_template_part( 'inc/direach', 'masthead');
+				if( !is_front_page() )
+				{
+					get_template_part( 'inc/direach', 'masthead');
+					}
+				
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :

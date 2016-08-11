@@ -13,8 +13,8 @@
 
 <?php
 get_template_part('inc/direach', 'heading');
-//check that we're not displaying a single post or page
-if(!is_page() && !is_single() )
+//check that we're not displaying a single post or page, or if we're on the front page...
+if( (!is_page() && !is_single()) || is_front_page() )
 {
 	//show masthead (goes on bottom for single pieces of content)
 	get_template_part('inc/direach', 'masthead');
