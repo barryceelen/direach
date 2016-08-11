@@ -385,4 +385,10 @@ textarea {
 .widget-area .front-widgets {
 		float: left;
 		width: 50%;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+}
+
+.widget-area span.post-date {
+	margin-left: 1em;
 }
