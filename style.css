@@ -331,7 +331,7 @@ samp {
 	margin-right: 1em;
 }
 
-.entry-meta, .entry-footer, .post-navigation, .comments-area, .nav-links .site-info {
+.entry-meta, .entry-footer, .post-navigation, .comments-area, .nav-links, .site-info {
 	font-size: 80%;
 }
 
