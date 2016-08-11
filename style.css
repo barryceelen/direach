@@ -361,9 +361,9 @@ body.hfeed article {
 /* more separation markers */
 
 div.site-info {
-	border-bottom: 1px solid rgb(216, 216, 216);
-	padding-bottom: 1em;
-	margin-bottom: 1em;
+	border-top: 1px solid rgb(216, 216, 216);
+	padding-top: 1em;
+	margin-top: 1em;
 }
 
 .page-content,
