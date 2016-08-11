@@ -71,17 +71,17 @@ textarea {
 		padding-left: 22px;
 		padding-right: 22px;
 	}
-	.widget-area .front-widgets {
-		float: left;
-		width: 50%;
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-}
 }
 @media screen and (min-width: 600px) {
 	div#page {
 		padding-left: 40px;
 		padding-right: 40px;
+	}
+	.widget-area .front-widgets {
+		float: left;
+		width: 50%;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
 	}
 }
 @media screen and (min-width: 700px) {
