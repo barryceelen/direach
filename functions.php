@@ -80,6 +80,15 @@ function direach_content_width() {
 }
 add_action( 'after_setup_theme', 'direach_content_width', 0 );
 
+/* make sure our menu shows a home link */
+
+function direach_page_menu_args( $args ) {
+        if ( ! isset( $args['show_home'] ) )
+                $args['show_home'] = true;
+        return $args;
+}
+add_filter( 'wp_page_menu_args', 'direach_page_menu_args' );
+
 /**
  * Register our two front page sidebars.
  *
