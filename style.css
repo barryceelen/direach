@@ -335,6 +335,10 @@ samp {
 	font-size: 80%;
 }
 
+.nav-links {
+	clear: both;
+}
+
 div.widget-area {
 	font-size: 90%;
 }
