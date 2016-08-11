@@ -339,6 +339,10 @@ samp {
 	clear: both;
 }
 
+nav.post-navigation {
+	clear: both;
+}
+
 div.widget-area {
 	font-size: 90%;
 }
