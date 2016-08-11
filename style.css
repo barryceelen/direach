@@ -400,3 +400,7 @@ textarea {
 	margin-left: 0.5em;
 	font-style: italic;
 }
+
+span.edit-link {
+	margin-left: 0.5em;
+	}
